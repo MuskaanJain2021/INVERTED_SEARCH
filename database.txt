@@ -1,0 +1,49 @@
+ 2 f1.txt 1 f2.txt 1
+A 2 f2.txt 1  1
+and 2 f1.txt 1  1
+ 1 f2.txt 1
+brown 3 f2.txt 1 f1.txt 2  1
+ 1 f2.txt 1
+can 2 f2.txt 1  1
+ 1 f2.txt 1
+dog. 3 f2.txt 1 f1.txt 2  1
+ 1 f2.txt 1
+even 2 f2.txt 1  1
+ 1 f2.txt 3
+fox 3 f1.txt 4 f2.txt 3  1
+faster 2 f2.txt 1  1
+fastest 2 f2.txt 1  1
+ 0
+ 0
+ 1 f2.txt 1
+is 3 f2.txt 1 f1.txt 2  1
+ 1 f1.txt 1
+jumps 2 f1.txt 1  1
+ 0
+ 1 f1.txt 1
+lazy 2 f1.txt 1  1
+ 0
+ 0
+ 2 f1.txt 1 f2.txt 1
+outwit 2 f2.txt 1  1
+over 2 f1.txt 1  1
+ 0
+ 1 f2.txt 1
+quick 3 f2.txt 1 f1.txt 4  1
+ 0
+ 2 f1.txt 1 f2.txt 2
+slow 2 f2.txt 1  1
+smart 2 f2.txt 1  1
+smart. 2 f1.txt 1  1
+ 1 f2.txt 4
+The 3 f2.txt 1 f1.txt 4  1
+than 2 f2.txt 1  1
+the 3 f1.txt 2 f2.txt 3  1
+turtle. 2 f2.txt 1  1
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
