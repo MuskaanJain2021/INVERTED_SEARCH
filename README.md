@@ -16,10 +16,6 @@ InvertedSearch is a tool designed to optimize search functionality by utilizing 
 - Hashing: Understanding of hash tables for efficient data retrieval.
 - Single Linked List: Basic knowledge of linked lists for storing and managing index data.
 
-## Complexity Level
-
-- Complex
-
 ## Introduction
 
 An inverted index maps content (such as words) to its locations in a database or set of documents, allowing for rapid full-text searches. This data structure is fundamental in search engines and document retrieval systems. While building the index involves some overhead, it greatly enhances search query performance.
