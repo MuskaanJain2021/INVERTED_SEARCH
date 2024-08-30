@@ -1,27 +1,24 @@
-Got it! I'll revise the README to remove references to the file names you haven't used. Here's the updated version:
-
----
 
 # InvertedSearch
 
 ## Overview
 
-**InvertedSearch** is a tool designed to optimize search functionality by utilizing an inverted index data structure. This approach enables rapid full-text searches by mapping words to their locations within a set of documents. Instead of scanning every document, the system uses an index to quickly locate relevant files, significantly improving search speed and efficiency.
+InvertedSearch is a tool designed to optimize search functionality by utilizing an inverted index data structure. This approach enables rapid full-text searches by mapping words to their locations within a set of documents. Instead of scanning every document, the system uses an index to quickly locate relevant files, significantly improving search speed and efficiency.
 
 ## Goals
 
-- **Optimize Search Performance:** By creating an efficient inverted index, the system reduces the time and resources needed to find documents that contain specific words.
-- **Enable Fast Querying:** Implement a robust querying mechanism that provides quick results by leveraging the pre-built index.
-- **Maintain Flexibility:** Allow for easy updating of the index as files are added or removed from the database.
+- Optimize Search Performance: By creating an efficient inverted index, the system reduces the time and resources needed to find documents that contain specific words.
+- Enable Fast Querying: Implement a robust querying mechanism that provides quick results by leveraging the pre-built index.
+- Maintain Flexibility: Allow for easy updating of the index as files are added or removed from the database.
 
 ## Prerequisites
 
-- **Hashing:** Understanding of hash tables for efficient data retrieval.
-- **Single Linked List:** Basic knowledge of linked lists for storing and managing index data.
+- Hashing: Understanding of hash tables for efficient data retrieval.
+- Single Linked List: Basic knowledge of linked lists for storing and managing index data.
 
 ## Complexity Level
 
-- **Complex**
+- Complex
 
 ## Introduction
 
@@ -29,8 +26,8 @@ An inverted index maps content (such as words) to its locations in a database or
 
 ## Features
 
-- **Indexing:** Create and maintain an index of words from a set of files.
-- **Searching:** Efficiently query the indexed data to find relevant documents based on user input.
+- Indexing: Create and maintain an index of words from a set of files.
+- Searching: Efficiently query the indexed data to find relevant documents based on user input.
 
 ## References
 
