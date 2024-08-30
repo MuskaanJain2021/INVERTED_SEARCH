@@ -1,8 +1,12 @@
+Got it! I'll revise the README to remove references to the file names you haven't used. Here's the updated version:
+
+---
+
 # InvertedSearch
 
 ## Overview
 
-**InvertedSearch** is a powerful tool designed to optimize search functionality by utilizing an inverted index data structure. This approach enables rapid full-text searches by mapping words to their locations within a set of documents. Instead of scanning every document, the system uses an index to quickly locate relevant files, significantly improving search speed and efficiency.
+**InvertedSearch** is a tool designed to optimize search functionality by utilizing an inverted index data structure. This approach enables rapid full-text searches by mapping words to their locations within a set of documents. Instead of scanning every document, the system uses an index to quickly locate relevant files, significantly improving search speed and efficiency.
 
 ## Goals
 
@@ -28,51 +32,6 @@ An inverted index maps content (such as words) to its locations in a database or
 - **Indexing:** Create and maintain an index of words from a set of files.
 - **Searching:** Efficiently query the indexed data to find relevant documents based on user input.
 
-## Design
-
-### Module 1: Indexing
-
-**File1: `Main_Indexing.c`**
-- **Purpose:** The entry point for the indexing process.
-- **Key Function:** Initializes the indexing process by reading the list of files and creating/updating the index file.
-  
-  
-  int main(int argc, char** argv);
-  
-
-**File2: `Indexing.c`**
-- **Purpose:** Handles the creation and updating of the index.
-- **Key Functions:**
-  - **`create_database(FILE* FileList)`**: Reads file names from `FileList` and initiates indexing.
-  - **`read_datafile(FILE* file, Word* WordList, char* filename)`**: Parses the file to extract words and update the index.
-  - **`store_word(char* word, char* filename, Word* WordList)`**: Inserts words into a sorted linked list, associating them with file names.
-  - **`write_databasefile(Word* WordList, FILE* Databasefile)`**: Writes the sorted index list to `DatabaseFile`.
-
-### Module 2: Searching
-
-**File1: `Main_Searching.c`**
-- **Purpose:** Manages the search process based on user input.
-- **Key Function:** Collects user queries and invokes searching mechanisms to retrieve and display relevant documents.
-
-**File2: `Searching.c`**
-- **Purpose:** Executes the search operations.
-- **Key Functions:**
-  - **`create_indexlist(FILE* Index_file, Word* Index_List)`**: Reads the index file into a linked list for efficient searching.
-  - **`input_from_user()`**: Collects and processes user search input.
-  - **`string_token(char* input_string)`**: Tokenizes the input string into words.
-  - **`Search(char* word, Word* IndexList, File* Output_list)`**: Searches for each word in the index and updates the result list.
-  - **`display_output(File* Output_list)`**: Displays the files with the highest match counts.
-
-## Getting Started
-
-1. **Indexing:**
-   - Prepare a `FileList` containing the paths to the files you want to index.
-   - Run `Main_Indexing.c` to generate or update the `DatabaseFile` with the indexed data.
-
-2. **Searching:**
-   - Run `Main_Searching.c` to start the search process.
-   - Enter your search query, and the program will display files with the highest relevance based on the indexed data.
-
 ## References
 
 1. [Inverted Index - Wikipedia](https://en.wikipedia.org/wiki/Inverted_index)
@@ -81,9 +40,6 @@ An inverted index maps content (such as words) to its locations in a database or
 4. [ElasticSearch - Inverted Index](https://www.elastic.co/guide/en/elasticsearch/guide/current/inverted-index.html)
 5. [Quora - Information Retrieval and Inverted Index](https://www.quora.com/Information-Retrieval-What-is-inverted-index)
 
-
-
 ## Contact
 
 For any questions or feedback, please reach out to muskaanembed2023@gmail.com.
-
